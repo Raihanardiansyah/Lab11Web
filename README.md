@@ -102,7 +102,6 @@ Update template/header.php:
 
 **Tugas Praktikum**
 
-
 <img src="web3.png" width="700">
 
 <img src="web4.png" width="700">
@@ -110,3 +109,39 @@ Update template/header.php:
 <img src="web5.png" width="700">
 
 <img src="web6.png" width="700">
+
+# Pratikum 13 dam 14: Membuat Pagination & Membuat Pencarian Data
+
+Pada pertemuan ini dilakukan pengembangan fitur pagination dan pencarian data pada modul artikel menggunakan PHP berbasis OOP dan MySQL.
+
+🔹 Pagination (Pertemuan 13)
+
+Pagination digunakan untuk membagi data artikel ke dalam beberapa halaman agar data tidak ditampilkan sekaligus.
+Implementasi pagination dilakukan dengan memanfaatkan klausa LIMIT dan OFFSET pada query MySQL. Jumlah halaman ditentukan berdasarkan total data yang ada dan jumlah data yang ditampilkan per halaman.
+Selain itu, ditambahkan navigasi Previous, Next, dan nomor halaman untuk memudahkan perpindahan antar halaman.
+
+🔹 Pencarian Data (Pertemuan 14)
+
+Fitur pencarian data diimplementasikan untuk memfilter data artikel berdasarkan judul artikel.
+Proses pencarian menggunakan klausa WHERE dan LIKE pada query MySQL. Pengguna dapat memasukkan kata kunci melalui form pencarian, kemudian sistem akan menampilkan data yang sesuai.
+Fitur pencarian ini terintegrasi dengan pagination, sehingga hasil pencarian tetap ditampilkan secara bertahap per halaman.
+
+🔹 Hasil Implementasi
+
+Data artikel ditampilkan secara bertahap per halaman
+
+Navigasi halaman (Previous, Next, dan nomor halaman) berjalan dengan baik
+
+Pencarian data berdasarkan judul artikel berfungsi dengan benar
+
+Pagination menyesuaikan hasil pencarian
+
+Struktur kode tetap menerapkan konsep PHP OOP
+
+🔹 Code Dan Webnya 
+
+<img src="code14.png" width="700">
+
+<img src="web7.png" width="700">
+
+<img src="web8.png" width="700">
